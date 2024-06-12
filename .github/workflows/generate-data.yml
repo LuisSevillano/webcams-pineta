@@ -2,7 +2,7 @@ name: Get images
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/3 * * * *"
   push:
     branches:
       - main
